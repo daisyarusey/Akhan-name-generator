@@ -23,3 +23,8 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
+footer{
+  background-color: #f2f2f2;
+  margin-top: 2%;
+  height: 30px;
+}
