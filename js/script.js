@@ -17,5 +17,5 @@ document.getElementById('theform').onsubmit = function generateName(){
   alert(gender);
   
   var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-
+  var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
 }
