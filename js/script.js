@@ -16,5 +16,6 @@ document.getElementById('theform').onsubmit = function generateName(){
   var gender = genders.options[genders.selectedIndex].text;
   alert(gender);
   
+  var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 }
