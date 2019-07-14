@@ -19,15 +19,17 @@ document.getElementById('theform').onsubmit = function generateName(){
   var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
   var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wensday", "Thursday", "Friday", "Sunday"];
-  var dayOfBirth = parseInt(((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10))) % 7;
+  var x = parseInt(((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10))) % 7;
+  var dayOfBirth = Math.floor(x);
   if (gender === "Male") {
-    var mName = maleName[dayOfBirth - 1]
+    var name = maleName[dayOfBirth - 1]
     var day = dayOfWeek[dayOfBirth -1]
-    alert(" Since you were born on " + day + " Your name is "+ mName);
+    
     }
     else if (gender === "Female") {
-        var fName = femaleName[dayOfBirth -1]
+        var name = femaleName[dayOfBirth -1]
         var day = dayOfWeek[dayOfBirth - 1]
-        alert(" Since you were born on " + day + " Your name is "+ fName);
+        
     }
+    document.getElementById('result').innerHTML = day;
 }
