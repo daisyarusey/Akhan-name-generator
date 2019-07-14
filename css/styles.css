@@ -34,3 +34,6 @@ footer{
 body{
   background-image: url(https://github.com/daisyarusey/Akhan-name-generator/blob/master/images/calculator-calculation-insurance-finance-53621.jpeg?raw=true)
 }
+#result{
+  color: blue;
+}
