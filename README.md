@@ -4,6 +4,8 @@ This application generates Akan name, which is Ghananian name.
 Daisy Arusey
 ## Setup instructions
 Click the link below to access the website and fill in your details and get your day of birth and name.
+# Link to the website
+<https://daisyarusey.github.io/Akhan-name-generator/>
 # BDD
 
 # Technologies used
