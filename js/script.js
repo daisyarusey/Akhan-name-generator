@@ -1,15 +1,3 @@
-var date = document.getElementById('date').value;
-  
-var month = document.getElementById('month').value;
-
-var yearOfBirth = document.getElementById('year').value;
-
-
-var century = yearOfBirth.slice(0,2);
-var year = yearOfBirth.slice(2,4);
-
-var genders = document.getElementById("gender");
-var gender = genders.options[genders.selectedIndex].text;
 //A function to verify
 function verify(){
   if(document.getElementById('date').value===""){
